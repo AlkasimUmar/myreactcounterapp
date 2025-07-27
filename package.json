@@ -1,12 +1,32 @@
 {
-  "name": "my-v0-project",
-  "version": "0.1.0",
+  "name": "click-counter-app",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "next build",
+    "build": "react-scripts build",
     "dev": "next dev",
+    "eject": "react-scripts eject",
     "lint": "next lint",
-    "start": "next start"
+    "start": "react-scripts start",
+    "test": "react-scripts test"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",
@@ -49,10 +69,10 @@
     "next": "14.2.16",
     "next-themes": "^0.4.4",
     "react": "^18",
-    "react-day-picker": "9.8.0",
     "react-dom": "^18",
     "react-hook-form": "^7.54.1",
     "react-resizable-panels": "^2.1.7",
+    "react-scripts": "5.0.1",
     "recharts": "2.15.0",
     "sonner": "^1.7.1",
     "tailwind-merge": "^2.5.5",
